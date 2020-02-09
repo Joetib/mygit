@@ -176,6 +176,7 @@ class Mygit(cmd.Cmd):
             print(f"Deleted branch {branch} from repository {repo}")
         except Exception as e:
             print(f"Error deleting branch \n", e)
+            
     def do_clone(self, arg):
         """
         clones the contents of a branch in a 
